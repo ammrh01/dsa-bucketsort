@@ -82,6 +82,14 @@ input {
     opacity: 0;
 }
 
+#bucketimg {
+    width: 220px;
+    position: absolute;
+    place-self: anchor-center;
+    top: 110%;
+    opacity: 0.3;
+}
+
 #array {
     background-color: white;
     height: 265px;
