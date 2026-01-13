@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p, h3, label, button, input {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Google Sans", sans-serif;
+}
+
+button {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+
+    transition: 0.2s all ease;
+}
+
+#addBtn {
+    background-color: rgb(62, 239, 130);
+}
+
+#resetBtn {
+    background-color: rgb(255, 190, 190);
+}
+
+button:hover {
+    filter: brightness(90%);
+    font-size: 22px;
+}
+
+input {
+    font-size: 20px;
+    outline: none;
+    grid-column: 1/3;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+#topbar {
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+}
+
+#capacity {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.control {
+    margin-top: 16px;
+    display: grid;
+    grid-auto-columns: 200px;
+    justify-content: center;
+    gap: 8px;
+}
+
+#confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    transition: 0.2s all ease;
+    opacity: 0;
+}
+
+#array {
+    background-color: white;
+    height: 265px;
+    width: 598px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+}
+
+.block {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.block_id {
+    position: absolute;
+    color: black;
+    margin-top: -25px;
+    width: 100%;
+    text-align: center;
+}
+
+.block_id2 {
+    position: absolute;
+    color: black;
+    margin-top: 22px;
+    width: 100%;
+    text-align: center;
+}
+
+.block_id3 {
+    position: absolute;
+    color: black;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.bucket {
+    width: 256px;
+    height: 260px;
+    position: relative;
+}
+
+.bucket2 {
+    margin: auto;
+    width: 148px;
+    height: 260px;
+}
+
+.firstbucket {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.secondbucket {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.thirdbucket {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.fourthbucket {
+    width: 28px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
